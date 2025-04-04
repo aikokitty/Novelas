@@ -1,20 +1,24 @@
 <!DOCTYPE html>
-<html lang="eng">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Lugares adonde Mami puede ver sus Novelas </title> 
-        <link rel="icon" type="image/gif" href="https://media.tenor.com/2roX3uxz_68AAAAC/cute-bow.gif">
-        <style> 
-            @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
-        
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lista de lugares donde Mami puede ver sus novelas en línea">
+    <title>Lugares donde Mami puede ver sus Novelas</title> 
+    <link rel="icon" type="image/gif" href="https://media.tenor.com/2roX3uxz_68AAAAC/cute-bow.gif">
+    <style> 
+        @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+    
         body {
             font-family: 'Bubblegum Sans', cursive;
             font-size: 30px;
             text-align: center;
             background-color: #ffb6c1;
             color: white;
+            margin: 0;
+            padding: 0;
         }
+
         .header {
             position: fixed;
             top: 0;
@@ -28,42 +32,49 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             z-index: 1000;
         }
-            .container {
-                margin-top: 200px;
-            }
-            .link-button {
-                display: inline-block;
-                background-color: #ffccd5;
-                color: white;
-                font-weight: bold;
-                font-size: 28px;
-                padding: 10px 20px;
-                margin: 10px;
-                border:none;
-                border-radius: 8px;
-                cursor: pointer;
-                text-decoration: underline;
-                position: relative;
-                transition: 0.3s;
-            }
-            .link-button:hover {
-                background-color: #ff9aa2;
-            }
-            .bow {
-                display:inline-block;
-                font-size: 25px;
-                animation: bowAnimation 2s infinite alternate;
-            }
-            @keyframes bowAnimation {
-                from { transform: rotate(20deg);}
-                to { transform: rotate(-20deg);}
-            }
-        </style>         
-    </head>
-    <body>
-        <div class="container">
-            <h1> Lugares adonde mi Mami puede ver sus Novelas</h1>
-            <p>Dale a un boton para empezar! :</p>
+
+        .container {
+            margin-top: 100px; 
+            padding: 20px;
+        }
+
+        .link-button {
+            display: inline-block;
+            background-color: #ffccd5;
+            color: white;
+            font-weight: bold;
+            font-size: 28px;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .link-button:hover {
+            background-color: #ff9aa2;
+            transform: scale(1.05);
+        }
+
+        .bow {
+            display: inline-block;
+            font-size: 25px;
+            animation: bowAnimation 2s infinite alternate;
+        }
+
+        @keyframes bowAnimation {
+            from { transform: rotate(20deg);}
+            to { transform: rotate(-20deg);}
+        }
+    </style>         
+</head>
+<body>
+    <div class="container">
+        <h1>Lugares donde mi Mami puede ver sus Novelas</h1>
+        <p>Dale a un botón para empezar:</p>
+
         <p><span class="bow">🎀</span> <a href="https://xprime.tv/" class="link-button" target="_blank">XPrime</a> <span class="bow">🎀</span></p>
         <p><span class="bow">🎀</span> <a href="https://uira.live/" class="link-button" target="_blank">Uira</a> <span class="bow">🎀</span></p>
         <p><span class="bow">🎀</span> <a href="https://flickystream.com/" class="link-button" target="_blank">Flicky Stream</a> <span class="bow">🎀</span></p>
@@ -79,6 +90,6 @@
         <p><span class="bow">🎀</span> <a href="https://popcornmovies.to/" class="link-button" target="_blank">Popcornmovies</a> <span class="bow">🎀</span></p>
         <p><span class="bow">🎀</span> <a href="https://movies.7xtream.com/" class="link-button" target="_blank">7Xstream</a> <span class="bow">🎀</span></p>
         <p><span class="bow">🎀</span> <a href="https://alienflix.net/" class="link-button" target="_blank">Alienflix</a> <span class="bow">🎀</span></p>
-        </div>
-    </body>
+    </div>
+</body>
 </html>
